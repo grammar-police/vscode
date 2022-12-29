@@ -463,7 +463,7 @@ import { assertNoRpc, poll } from '../utils';
 			// 				done();
 			// 			});
 			// 			// Show a terminal and wait a brief period before dispose, this will cause
-			// 			// the panel to init it's dimenisons and be provided to following terminals.
+			// 			// the panel to init its dimenisons and be provided to following terminals.
 			// 			// The following test depends on this.
 			// 			terminal.show();
 			// 			setTimeout(() => terminal.dispose(), 200);

@@ -67,7 +67,7 @@
 				// Apply zoom level early before even building the
 				// window DOM elements to avoid UI flicker. We always
 				// have to set the zoom level from within the window
-				// because Chrome has it's own way of remembering zoom
+				// because Chrome has its own way of remembering zoom
 				// settings per origin (if vscode-file:// is used) and
 				// we want to ensure that the user configuration wins.
 				webFrame.setZoomLevel(configuration.zoomLevel ?? 0);

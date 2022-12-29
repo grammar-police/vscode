@@ -24,7 +24,7 @@ import { ResourceMap } from 'vs/base/common/map';
 export interface IUntitledFileWorkingCopyManager<M extends IUntitledFileWorkingCopyModel> extends IBaseFileWorkingCopyManager<M, IUntitledFileWorkingCopy<M>> {
 
 	/**
-	 * An event for when a untitled file working copy changed it's dirty state.
+	 * An event for when a untitled file working copy changed its dirty state.
 	 */
 	readonly onDidChangeDirty: Event<IUntitledFileWorkingCopy<M>>;
 

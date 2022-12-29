@@ -1253,7 +1253,7 @@ export class CodeWindow extends Disposable implements ICodeWindow {
 		}
 
 		// Single Monitor: be strict about x/y positioning
-		// macOS & Linux: these OS seem to be pretty good in ensuring that a window is never outside of it's bounds.
+		// macOS & Linux: these OS seem to be pretty good in ensuring that a window is never outside of its bounds.
 		// Windows: it is possible to have a window with a size that makes it fall out of the window. our strategy
 		//          is to try as much as possible to keep the window in the monitor bounds. we are not as strict as
 		//          macOS and Linux and allow the window to exceed the monitor bounds as long as the window is still

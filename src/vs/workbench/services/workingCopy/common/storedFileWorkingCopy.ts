@@ -38,7 +38,7 @@ export interface IStoredFileWorkingCopyModelFactory<M extends IStoredFileWorking
  * The underlying model of a stored file working copy provides some
  * methods for the stored file working copy to function. The model is
  * typically only available after the working copy has been
- * resolved via it's `resolve()` method.
+ * resolved via its `resolve()` method.
  */
 export interface IStoredFileWorkingCopyModel extends IFileWorkingCopyModel {
 

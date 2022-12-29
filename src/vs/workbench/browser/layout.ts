@@ -1136,7 +1136,7 @@ export abstract class Layout extends Disposable implements IWorkbenchLayoutServi
 		const setLineNumbers = (lineNumbers?: LineNumbersType) => {
 			const setEditorLineNumbers = (editor: IEditor) => {
 
-				// To properly reset line numbers we need to read the configuration for each editor respecting it's uri.
+				// To properly reset line numbers we need to read the configuration for each editor respecting its uri.
 				if (!lineNumbers && isCodeEditor(editor) && editor.hasModel()) {
 					const model = editor.getModel();
 					lineNumbers = this.configurationService.getValue('editor.lineNumbers', { resource: model.uri, overrideIdentifier: model.getLanguageId() });

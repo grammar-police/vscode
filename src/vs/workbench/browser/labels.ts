@@ -423,7 +423,7 @@ class ResourceLabelWidget extends IconLabel {
 		if (!options.forceLabel && !isSideBySideEditor && resource?.scheme === Schemas.untitled) {
 			// Untitled labels are very dynamic because they may change
 			// whenever the content changes (unless a path is associated).
-			// As such we always ask the actual editor for it's name and
+			// As such we always ask the actual editor for its name and
 			// description to get latest in case name/description are
 			// provided. If they are not provided from the label we got
 			// we assume that the client does not want to display them

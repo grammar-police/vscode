@@ -275,7 +275,7 @@ export class CommandDetectionCapability implements ICommandDetectionCapability {
 	}
 
 	getCwdForLine(line: number): string | undefined {
-		// Handle the current partial command first, anything below it's prompt is considered part
+		// Handle the current partial command first, anything below its prompt is considered part
 		// of the current command
 		if (this._currentCommand.promptStartMarker && line >= this._currentCommand.promptStartMarker?.line) {
 			return this._cwd;

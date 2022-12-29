@@ -12200,7 +12200,7 @@ declare module 'vscode' {
 		 * * if the path is outside of any of the workspace folders, deletions are not tracked
 		 *
 		 * If you are interested in being notified when the watched path itself is being deleted, you have
-		 * to watch it's parent folder. Make sure to use a simple `pattern` (such as putting the name of the
+		 * to watch its parent folder. Make sure to use a simple `pattern` (such as putting the name of the
 		 * folder) to not accidentally watch all sibling folders recursively.
 		 *
 		 * *Note* that the file paths that are reported for having changed may have a different path casing

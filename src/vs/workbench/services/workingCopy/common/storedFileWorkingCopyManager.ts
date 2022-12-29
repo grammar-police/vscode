@@ -43,17 +43,17 @@ export interface IStoredFileWorkingCopyManager<M extends IStoredFileWorkingCopyM
 	readonly onDidResolve: Event<IStoredFileWorkingCopy<M>>;
 
 	/**
-	 * An event for when a stored file working copy changed it's dirty state.
+	 * An event for when a stored file working copy changed its dirty state.
 	 */
 	readonly onDidChangeDirty: Event<IStoredFileWorkingCopy<M>>;
 
 	/**
-	 * An event for when a stored file working copy changed it's readonly state.
+	 * An event for when a stored file working copy changed its readonly state.
 	 */
 	readonly onDidChangeReadonly: Event<IStoredFileWorkingCopy<M>>;
 
 	/**
-	 * An event for when a stored file working copy changed it's orphaned state.
+	 * An event for when a stored file working copy changed its orphaned state.
 	 */
 	readonly onDidChangeOrphaned: Event<IStoredFileWorkingCopy<M>>;
 

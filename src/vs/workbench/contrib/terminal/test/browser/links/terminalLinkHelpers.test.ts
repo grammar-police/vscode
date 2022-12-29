@@ -231,7 +231,7 @@ class TestBufferLine implements IBufferLine {
 			}
 			cells.push(char);
 			if (this._text.charAt(i) === TEST_WIDE_CHAR || char.charCodeAt(0) > 255) {
-				// Skip the next character as it's width is 0
+				// Skip the next character as its width is 0
 				cells.push(TEST_NULL_CHAR);
 				wideNullCellOffset++;
 			}

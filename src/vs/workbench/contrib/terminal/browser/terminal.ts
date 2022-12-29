@@ -293,7 +293,7 @@ export interface ICreateTerminalOptions {
 	resource?: URI;
 
 	/**
-	 * The terminal's location (editor or panel), it's terminal parent (split to the right), or editor group
+	 * The terminal's location (editor or panel), its terminal parent (split to the right), or editor group
 	 */
 	location?: ITerminalLocationOptions;
 }

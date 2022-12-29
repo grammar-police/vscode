@@ -26,7 +26,7 @@ export interface IUntitledFileWorkingCopyModelFactory<M extends IUntitledFileWor
  * The underlying model of a untitled file working copy provides
  * some methods for the untitled file working copy to function.
  * The model is typically only available after the working copy
- * has been resolved via it's `resolve()` method.
+ * has been resolved via its `resolve()` method.
  */
 export interface IUntitledFileWorkingCopyModel extends IFileWorkingCopyModel {
 

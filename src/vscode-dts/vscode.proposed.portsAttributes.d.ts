@@ -47,7 +47,7 @@ declare module 'vscode' {
 	export namespace workspace {
 		/**
 		 * If your extension listens on ports, consider registering a PortAttributesProvider to provide information
-		 * about the ports. For example, a debug extension may know about debug ports in it's debuggee. By providing
+		 * about the ports. For example, a debug extension may know about debug ports in its debuggee. By providing
 		 * this information with a PortAttributesProvider the extension can tell the editor that these ports should be
 		 * ignored, since they don't need to be user facing.
 		 *
